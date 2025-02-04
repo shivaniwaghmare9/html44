@@ -13,13 +13,18 @@
        <div class="signup">
             <form>
                <label for="chek" aria-hidden="true">sign up</label><br>
+               <p id="errname"></p>
                 <input type="text" placeholder="user name" id="name">
                 <!-- <input type="text" placeholder="Father name" id="fname"> -->
+                 <p id="erremail"></p>
                 <input type="email" placeholder="Email-Id" id="email">
+                <p id="errpass"></p>
                <input type="text" placeholder="Id-password" id="pass">
+               <p id="errcpass"></p>
                <input type="text" placeholder="Confirm-Password" id="cpass">
+               <p id="errdob"></p>
                <input type="date" placeholder="DOB" id="dob">
-               <button onclick="sub()">signup</button>
+               <button onclick="return sub()" id="inp">signup</button>
             </form>
 
         </div>
