@@ -9,50 +9,50 @@
 <body>
     <div class="calculator" align="center">
         <div class="display">
-            <input type="text" id="display">
+            <input type="text"  id="display" placeholder="0">
         </div>
         <div class="buttons">
             <div class="row row1">
-                <button id="bt1">AC</button>
-                <button >DEL</button>
-                <button onclick="cal()">.</button>
-                <button onclick="cal()">/</button>
+                <button id="btn1" onclick="document.querySelector('#display').value=''">AC</button>
+                <button id="btn2" onclick="document.querySelector('#display').value=document.querySelector('#display').value.toString().slice(0,-1)">DEL</button>
+                <button onclick="document.querySelector('#display').value+='.'">.</button>
+                <button onclick="document.querySelector('#display').value+='/'">/</button>
 
             </div>
             <div class="row row2">
-                <button onclick="cal()">Sin</button>
-                <button onclick="cal()">Cos</button>
-                <button onclick="cal()">Tan</button>
-                <button onclick="cal()">&radic;</button>
+                <button onclick="sinf()">Sin</button>
+                <button onclick="cosf()">Cos</button>
+                <button onclick="tanf()">Tan</button>
+                <button onclick="SQ()">&radic;</button>
 
             </div>
             <div class="row row3">
-                <button onclick="cal()">9</button>
-                <button onclick="cal()">8</button>
-                <button onclick="cal()">7</button>
-                <button onclick="cal()">*</button>
+                <button onclick="document.querySelector('#display').value+='9'">9</button>
+                <button onclick="document.querySelector('#display').value+='8'">8</button>
+                <button onclick="document.querySelector('#display').value+='7'">7</button>
+                <button onclick="document.querySelector('#display').value+='*'">*</button>
 
             </div>
             <div class="row row4">
-                <button onclick="cal()">6</button>
-                <button onclick="cal()">5</button>
-                <button onclick="cal()">4</button>
-                <button onclick="cal()">+</button>
+                <button onclick="document.querySelector('#display').value+='6'">6</button>
+                <button onclick="document.querySelector('#display').value+='5'">5</button>
+                <button onclick="document.querySelector('#display').value+='4'">4</button>
+                <button onclick="document.querySelector('#display').value+='+'">+</button>
                 
 
 
             </div>
             <div class="row row5">
-                <button onclick="cal()">3</button>
-                <button onclick="cal()">2</button>
-                <button onclick="cal()">1</button>
-                <button onclick="cal()">-</button>
+                <button onclick="document.querySelector('#display').value+='3'">3</button>
+                <button onclick="document.querySelector('#display').value+='2'">2</button>
+                <button onclick="document.querySelector('#display').value+='1'">1</button>
+                <button onclick="document.querySelector('#display').value+='-'">-</button>
 
             </div>
             <div class="row row6">
-                <button onclick="cal()">0</button>
-                <button onclick="cal()">00</button>
-                <button id="equal">=</button>
+                <button onclick="document.querySelector('#display').value+='0'">0</button>
+                <button onclick="document.querySelector('#display').value+='00'">00</button>
+                <button onclick="document.querySelector('#display').value=eval(document.querySelector('#display').value)" id="equal">=</button>
                
 
             </div>
