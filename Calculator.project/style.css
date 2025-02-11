@@ -11,6 +11,7 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
 .calculator{
     width: 90vw;
@@ -18,7 +19,7 @@ body{
     height: 500px;
     background-color: #121a1b;
     border-radius: 10px;
-    box-shadow: 1px 5px 20px rgb(82, 82, 141),-1px -5px 20px rgb(44, 44, 99);
+    box-shadow: 1px 5px 20px rgb(134, 134, 193),-1px -5px 20px rgb(102, 102, 150);
     margin-top: 50px;
     
 }
