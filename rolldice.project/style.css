@@ -1,4 +1,9 @@
 
+
+*{
+    margin: 0;
+    padding: 0;
+}
 body{
     background-image: url(./premium_photo.jpg);
     background-size: cover;
@@ -11,6 +16,7 @@ body{
     
 }
 #circle{
+    
    display: flex;
    justify-content: center;
    align-items: center;
@@ -195,12 +201,13 @@ button{
     border-radius: 10px;
     color: black;
      background-color: darkgoldenrod;
+     margin-top: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-     position: static;
+     
 }
-@media(max-width:500px){
+/* @media(max-width:500px){
      body{
         background-image: url(./photo.avif);
         background-size: cover;
      }
-}
+} */

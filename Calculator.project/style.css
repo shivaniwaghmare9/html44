@@ -19,8 +19,9 @@ body{
     height: 500px;
     background-color: #121a1b;
     border-radius: 10px;
-    box-shadow: 1px 5px 20px rgb(134, 134, 193),-1px -5px 20px rgb(102, 102, 150);
+    box-shadow: 1px 5px 10px rgb(134, 134, 193),-1px -5px 10px rgb(102, 102, 150);
     margin-top: 50px;
+    border: 2px solid black;
     
 }
 .display{
