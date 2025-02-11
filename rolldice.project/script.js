@@ -20,7 +20,7 @@ let roll=()=>{
     }
     else if(dice==2){
         box1.style.opacity="0";
-        box2.style.opacity="2";
+        box2.style.opacity="1";
         box3.style.opacity="0";
         box4.style.opacity="0";
         box5.style.opacity="0";
@@ -29,7 +29,7 @@ let roll=()=>{
     else if(dice==3){
         box1.style.opacity="0";
         box2.style.opacity="0";
-        box3.style.opacity="3";
+        box3.style.opacity="1";
         box4.style.opacity="0";
         box5.style.opacity="0";
         box6.style.opacity="0";
@@ -38,7 +38,7 @@ let roll=()=>{
         box1.style.opacity="0";
          box2.style.opacity="0";
          box3.style.opacity="0";
-         box4.style.opacity="4";
+         box4.style.opacity="1";
          box5.style.opacity="0";
          box6.style.opacity="0";
      }
@@ -47,7 +47,7 @@ let roll=()=>{
          box2.style.opacity="0";
          box3.style.opacity="0";
          box4.style.opacity="0";
-         box5.style.opacity="5";
+         box5.style.opacity="1";
          box6.style.opacity="0";
      }
      else if(dice==6){
@@ -56,7 +56,7 @@ let roll=()=>{
          box3.style.opacity="0";
          box4.style.opacity="0";
          box5.style.opacity="0";
-         box6.style.opacity="6";
+         box6.style.opacity="1";
      }
 
     
