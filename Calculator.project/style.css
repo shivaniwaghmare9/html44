@@ -5,8 +5,8 @@
 }
 
 body{
-    /* background-color: black; */
-    background-image: url(./pexels-photo.webp);
+    background-color: rgb(2, 12, 20);
+    /* background-image: url(./pexels-photo.webp); */
     background-size: cover;
     width: 100%;
     height: 100%;
@@ -19,12 +19,13 @@ body{
 body h1{
     margin-top: 5px;
     text-decoration: underline;
+    color: aliceblue;
 }
 body h1 span{
     color: darkgoldenrod;
 }
 body h1 span:hover{
-    color: #121a1b;
+    color: aliceblue;
 }
 
 .calculator{
@@ -37,7 +38,7 @@ body h1 span:hover{
     border-radius: 10px;
     box-shadow: 1px 5px 10px rgb(82, 82, 118),-1px -5px 10px rgb(56, 56, 110);
     margin-top: 40px;
-    border: 3px solid #eee2e4;
+    border: 3px solid #a1aad6;
     
     
 }
