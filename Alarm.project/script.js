@@ -22,3 +22,10 @@ let sett=()=>{
      },1000)
     
 }
+    //   let stop=()=>{
+    //      setTimeout(()=>{
+    //                  clearInterval(stp)
+    //                 ringg.pause()
+    //                  })
+    //     }
+        
