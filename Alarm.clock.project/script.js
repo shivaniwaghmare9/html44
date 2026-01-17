@@ -39,7 +39,7 @@ function alarmSetFunction() {
 	if (cnt < maxValue) {
 		 let timeUntilAlarm = selectedDate - now;
 		 let alarmDiv = document.createElement("div");
-		alarmDiv.classList.add("alarm");
+		 alarmDiv.classList.add("alarm");
 		alarmDiv.innerHTML = `
 			<span>
 			${selectedDate.toLocaleString()}
