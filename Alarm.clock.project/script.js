@@ -42,7 +42,7 @@ function alarmSetFunction() {
 		 alarmDiv.classList.add("alarm");
 		 alarmDiv.innerHTML = `
 			 <span>
-			${selectedDate.toLocaleString()}
+			 ${selectedDate.toLocaleString()}
 			</span>
 			<button class="delete-alarm">
 			Delete
