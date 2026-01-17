@@ -45,7 +45,7 @@ function alarmSetFunction() {
 			 ${selectedDate.toLocaleString()}
 			 </span>
 			 <button class="delete-alarm">
-			Delete
+			 Delete
 			</button>
 		`;
 		alarmDiv
