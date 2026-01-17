@@ -46,7 +46,7 @@ function alarmSetFunction() {
 			 </span>
 			 <button class="delete-alarm">
 			 Delete
-			</button>
+			 </button>
 		`;
 		alarmDiv
 			.querySelector(".delete-alarm")
