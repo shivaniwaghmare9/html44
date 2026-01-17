@@ -40,7 +40,7 @@ function alarmSetFunction() {
 		 let timeUntilAlarm = selectedDate - now;
 		 let alarmDiv = document.createElement("div");
 		 alarmDiv.classList.add("alarm");
-		alarmDiv.innerHTML = `
+		 alarmDiv.innerHTML = `
 			<span>
 			${selectedDate.toLocaleString()}
 			</span>
