@@ -63,7 +63,7 @@ function alarmSetFunction() {
 			 alert("Time to wake up!");
 			 alarmDiv.remove();
 			 cnt--;
-			const alarmIndex = almTimesArray.indexOf(selectedDate.toString());
+			 const alarmIndex = almTimesArray.indexOf(selectedDate.toString());
 			if (alarmIndex !== -1) {
 				almTimesArray.splice(alarmIndex, 1);
 			}
