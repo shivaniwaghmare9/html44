@@ -66,7 +66,7 @@ function alarmSetFunction() {
 			 const alarmIndex = almTimesArray.indexOf(selectedDate.toString());
 			 if (alarmIndex !== -1) {
 				almTimesArray.splice(alarmIndex, 1);
-			}
+			 }
 		}, timeUntilAlarm);
 		contan.appendChild(alarmDiv);
 		cnt++;
