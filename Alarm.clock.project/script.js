@@ -60,7 +60,7 @@ function alarmSetFunction() {
 				}
 			});
 		interVal = setTimeout(() => {
-			alert("Time to wake up!");
+			 alert("Time to wake up!");
 			alarmDiv.remove();
 			cnt--;
 			const alarmIndex = almTimesArray.indexOf(selectedDate.toString());
