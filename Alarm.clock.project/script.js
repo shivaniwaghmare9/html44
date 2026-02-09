@@ -72,7 +72,7 @@ function alarmSetFunction() {
 		   cnt++;
 		    almTimesArray.push(selectedDate.toString());
 	} else {
-		alert("You can only set a maximum of 3 alarms.");
+		 alert("You can only set a maximum of 3 alarms.");
 	}
 }
 function showAlarmFunction() {
