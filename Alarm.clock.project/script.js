@@ -90,7 +90,7 @@ function showAlarmFunction() {
 		});
 	});
 }
-   showAlarmFunction();
+ showAlarmFunction();
  setInterval(timeChangeFunction, 1000);
  btn.addEventListener("click", alarmSetFunction);
 timeChangeFunction();
