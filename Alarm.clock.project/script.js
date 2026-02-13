@@ -10,7 +10,7 @@ let cnt = 0;
 let almTimesArray = [];
 function timeChangeFunction() {
 	   let curr = new Date();
-	  let hrs = curr.getHours();
+	   let hrs = curr.getHours();
 	  let min = String(curr.getMinutes()).padStart(2, "0");
 	    let sec = String(curr.getSeconds()).padStart(2, "0");
 	 let period = "AM";
