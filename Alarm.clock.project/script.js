@@ -1,5 +1,5 @@
 
-let time = document.querySelector("#time");
+ let time = document.querySelector("#time");
 let dateInput = document.querySelector("#alarmDate");
 let tInput = document.querySelector("#alarmTime");
  let btn = document.querySelector("#setAlarm");
