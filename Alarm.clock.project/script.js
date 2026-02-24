@@ -6,7 +6,7 @@
   let contan = document.querySelector("#alarms");
   let interVal;
   let maxValue = 3;
- let cnt = 0;
+  let cnt = 0;
  let almTimesArray = [];
   function timeChangeFunction() {
 	     let curr = new Date();
