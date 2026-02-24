@@ -5,7 +5,7 @@
   let btn = document.querySelector("#setAlarm");
   let contan = document.querySelector("#alarms");
   let interVal;
- let maxValue = 3;
+  let maxValue = 3;
  let cnt = 0;
  let almTimesArray = [];
   function timeChangeFunction() {
