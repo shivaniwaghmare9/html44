@@ -7,7 +7,7 @@
    let interVal;
    let maxValue = 3;
    let cnt = 0;
-  let almTimesArray = [];
+    let almTimesArray = [];
   function timeChangeFunction() {
 	     let curr = new Date();
 	     let hrs = curr.getHours();
