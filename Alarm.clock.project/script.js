@@ -25,7 +25,7 @@
 
      }   
      function alarmSetFunction() {
-	let now = new Date();
+	  let now = new Date();
 	let selectedDate = new Date(dateInput.value + "T" + tInput.value);
 	if (selectedDate <= now) {
 		alert(`Invalid time. Please select 
