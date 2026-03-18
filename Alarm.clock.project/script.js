@@ -20,7 +20,7 @@
 			hrs -= 12;
 		}
 	    }
-	 hrs = String(hrs).padStart(2, "0");
+	  hrs = String(hrs).padStart(2, "0");
 	time.innerHTML = `${hrs}:${min}:${sec} ${period}`;  
 
      }   
