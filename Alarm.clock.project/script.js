@@ -23,7 +23,7 @@
 	  hrs = String(hrs).padStart(2, "0");
 	  time.innerHTML = `${hrs}:${min}:${sec} ${period}`;  
 
-     }   
+      }   
      function alarmSetFunction() {
 	  let now = new Date();
 	  let selectedDate = new Date(dateInput.value + "T" + tInput.value);
