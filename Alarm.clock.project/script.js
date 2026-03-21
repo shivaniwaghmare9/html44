@@ -29,7 +29,7 @@
 	  let selectedDate = new Date(dateInput.value + "T" + tInput.value);
 	  if (selectedDate <= now) {
 		alert(`Invalid time. Please select 
-	a future date and time.`);
+	 a future date and time.`);
 		return;
 	}
 	if (almTimesArray.includes(selectedDate.toString())) {
