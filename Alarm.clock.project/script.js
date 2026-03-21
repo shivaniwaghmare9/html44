@@ -32,7 +32,7 @@
 	 a future date and time.`);
 		return;
 	  }
-	if (almTimesArray.includes(selectedDate.toString())) {
+	 if (almTimesArray.includes(selectedDate.toString())) {
 		alert(`You cannot set multiple 
 	alarms for the same time.`);
 		return;
