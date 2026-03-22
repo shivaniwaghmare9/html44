@@ -34,7 +34,7 @@
 	  }
 	 if (almTimesArray.includes(selectedDate.toString())) {
 		alert(`You cannot set multiple 
-	alarms for the same time.`);
+	 alarms for the same time.`);
 		return;
 	}
 	if (cnt < maxValue) {
