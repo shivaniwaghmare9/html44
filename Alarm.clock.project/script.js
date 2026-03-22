@@ -37,7 +37,7 @@
 	 alarms for the same time.`);
 		return;
 	 }
-	if (cnt < maxValue) {
+	 if (cnt < maxValue) {
 		 let timeUntilAlarm = selectedDate - now;
 		 let alarmDiv = document.createElement("div");
 		 alarmDiv.classList.add("alarm");
