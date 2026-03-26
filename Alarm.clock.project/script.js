@@ -74,7 +74,7 @@
 		    almTimesArray.push(selectedDate.toString());
 	 } else {
 		 alert("You can only set a maximum of 3 alarms.");
-	}
+	 }
    }
 function showAlarmFunction() {
 	let alarms = contan.querySelectorAll(".alarm");
