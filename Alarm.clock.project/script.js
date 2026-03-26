@@ -76,7 +76,7 @@
 		 alert("You can only set a maximum of 3 alarms.");
 	 }
    }
-function showAlarmFunction() {
+  function showAlarmFunction() {
 	let alarms = contan.querySelectorAll(".alarm");
 	alarms.forEach((alarm) => {
 		let deleteButton = alarm.querySelector(".delete-alarm");
