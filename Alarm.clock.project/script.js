@@ -69,7 +69,7 @@
 				  almTimesArray.splice(alarmIndex, 1);
 			 }
 		 }, timeUntilAlarm);
-		    contan.appendChild(alarmDiv);
+		    contan.appendChild (alarmDiv);
 		     cnt++;
 		    almTimesArray.push    (selectedDate.toString());
 	 } else {
