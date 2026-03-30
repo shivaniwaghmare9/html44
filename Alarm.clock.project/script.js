@@ -71,7 +71,7 @@
 		 }, timeUntilAlarm);
 		    contan.appendChild(alarmDiv);
 		     cnt++;
-		    almTimesArray.push(selectedDate.toString());
+		    almTimesArray.push    (selectedDate.toString());
 	 } else {
 		 alert("You can only set a maximum of 3 alarms.");
 	 }
