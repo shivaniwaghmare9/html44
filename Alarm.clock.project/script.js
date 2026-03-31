@@ -68,7 +68,7 @@
 			  if (alarmIndex !== -1) {
 				  almTimesArray.splice(alarmIndex, 1);
 			 }
-		 }, timeUntilAlarm);
+		  }, timeUntilAlarm);
 		    contan.appendChild (alarmDiv);
 		     cnt++;
 		    almTimesArray.push    (selectedDate.toString());
